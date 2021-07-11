@@ -34,8 +34,8 @@ NOTE: Another option is to create a file username.txt contains the username and 
 
 ---------------------
 ## limitations:
-* Currently the script takes 40 min to finish the deploying the whole cluster, most of the time is spent waiting for the drbd disks to ready.
-* Unfortunately, the names of the VMs cannot be changed as there is a dependancy on the scripts that configures the cluster on the hostname. Although the resouce group name can be changed by editing rgname variable directly on the script.
+* Currently the script takes 40 min to finish the deploying the whole cluster, most of the time is spent waiting for the DRBD disks to ready.
+* Unfortunately, the names of the VMs cannot be changed as there is a dependency  on the scripts that configures the cluster on the hostname. Although the resource group name can be changed by editing rgname variable directly on the script.
 
 ---------------------
 ## To do list:
