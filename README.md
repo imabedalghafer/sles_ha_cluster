@@ -31,6 +31,7 @@ NOTE: Another option is to create a file username.txt contains the username and 
 ## Tools required to run it:
 * WSL (windows subsystem for linux) or any Linux system
 * Azure CLI installed on the machine and already logged in
+* A ready ssh RSA key pair for the user running the script on the Linux VM (you can use ssh-keygen -t rsa to generate).
 
 ---------------------
 ## limitations:
