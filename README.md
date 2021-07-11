@@ -15,16 +15,16 @@ by default it uses SLES 15 SP1 for SAP, you can use any other image by adding th
 * Ask user for input for username and password, to be used for accessing the VM
 
 NOTE: Another option is to create a file username.txt contains the username and password.txt contains the password in the same location as script so that it will automatically read them for username and password
-* Create a resouce group, load balancer and availabilty set
-* Crete 3 VMs, 2 for cluster and one as iscsi target for sbd device
+* Create a resource group, load balancer and availability set
+* Crete 3 VMs, 2 for cluster and one as ISCSI target for SBD device
 * Attach the machines to the load balancer, and update the NSG created to allow SSH from users public IP only
 * Starting a custom script extension to configure:
-  * iscsi initiators and connect them to iscsi target
-  * format the local disks and create the LVM to prepare them for drbd
+  * ISCSI initiators and connect them to ISCSI target
+  * format the local disks and create the LVM to prepare them for DRBD
   * SBD device setup
   * DRBD setup 
   * Cluster installtion and creation of the nodes
-  * make sure pacakges version and other cluster configuration matching MS documentation mentioned in the usage section 
+  * make sure packages  version and other cluster configuration matching MS documentation mentioned in the usage section 
 
 ---------------------
 
