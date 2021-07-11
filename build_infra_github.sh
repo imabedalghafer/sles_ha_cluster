@@ -36,7 +36,7 @@ then
 	offer=$2
 	fi
 else
-offer="SUSE:sles-sap-15-sp1:gen1:2021.03.08"
+offer="SUSE:sles-sap-15-sp1:gen1:latest"
 fi
 
 frontendip="nw01"
