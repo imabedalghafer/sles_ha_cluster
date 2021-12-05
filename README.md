@@ -13,8 +13,8 @@ by default it uses SLES 15 SP2 for SAP, you can use any other image by adding th
 also both options can be used.
 
 examples:
-  ./build_infra_github_v2.sh -i <Image URN> -s # to use both options
-  ./build_infra_github_v2.sh -s # to use default image with shared disk options
+-  ./build_infra_github_v2.sh -i <Image URN> -s # to use both options
+-  ./build_infra_github_v2.sh -s # to use default image with shared disk options
 
 --------------------
 
